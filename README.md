@@ -1,13 +1,13 @@
-# star-type-classifier
+# Star Type Classifier
 A PyTorch neural network that classifies stars based on numerical data about their physical properties.
 
 Overview
 -
 Model uses four features:
-• temperature
-• luminosity
-• radius
-• absolute magnitude
+- temperature
+- luminosity
+- radius
+- absolute magnitude
 
 The project covers the full machine learning workflow, including data preprocessing, training, validation, testing, and making predictions on new star data.
 
@@ -15,27 +15,27 @@ Machine Learning Model
 -
 The classifier is a fully connected neural network built using PyTorch.
 
-Architectures is input layer -> 64 neurons + ReLU -> 32 neurons + ReLU -> 6 output classes
+Architectures is input layer --> 64 neurons + ReLU --> 32 neurons + ReLU --> 6 output classes
 
 The model is trained using:
-• Loss function: Cross Entropy Loss
-• Optimizer: Adam
-• Learning rate: 0.001
-• Batch size: 20
-• Maximum epochs: 20
-• Early stopping patience: 5 epochs
+- Loss function: Cross Entropy Loss
+- Optimizer: Adam
+- Learning rate: 0.001
+- Batch size: 20
+- Maximum epochs: 20
+- Early stopping patience: 5 epochs
 
 The input features are standardized using StandardScaler before being passed to the neural network.
 
 Star Classes
 -
-Class | Star Type
-0 | Red Dwarf
-1 | Brown Dwarf
-2 | White Dwarf
-3 | Main Sequence
-4 | Super Giant
-5 | Hyper Giant
+Class --> Star Type
+0 --> Red Dwarf
+1 --> Brown Dwarf
+2 --> White Dwarf
+3 --> Main Sequence
+4 --> Super Giant
+5 --> Hyper Giant
 
 Dataset
 -
@@ -67,13 +67,13 @@ star-type-classification/
 
 Technologies
 -
-• Python
-• NumPy
-• Pandas
-• Scikit-learn
-• PyTorch
-• Matplotlib
-• Google CoLab
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- PyTorch
+- Matplotlib
+- Google CoLab
 
 Attribution
 -
