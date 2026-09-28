@@ -29,13 +29,15 @@ The input features are standardized using StandardScaler before being passed to 
 
 Star Classes
 -
-Class --> Star Type
-0 --> Red Dwarf
-1 --> Brown Dwarf
-2 --> White Dwarf
-3 --> Main Sequence
-4 --> Super Giant
-5 --> Hyper Giant
+
+| Class | Star Type |
+| --- | --- |
+| 0 | Red Dwarf |
+| 1 | Brown Dwarf |
+| 2 | White Dwarf |
+| 3 | Main Sequence |
+| 4 | Super Giant |
+| 5 | Hyper Giant |
 
 Dataset
 -
